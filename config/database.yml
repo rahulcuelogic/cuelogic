@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: sqlite3
-  database: db/development.sqlite3
+  database: dcaqm6e5bam4aq
   pool: 5
   timeout: 5000
 
