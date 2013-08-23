@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails'
 
 gem 'bootstrap-sass', '2.0.0'
+
+gem 'factory_girl_rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
 
 group :development, :test do
