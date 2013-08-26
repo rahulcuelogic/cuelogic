@@ -6,15 +6,16 @@ gem 'rails'
 gem 'bootstrap-sass'
 
 gem 'factory_girl_rails', '4.2.1'
+
+gem 'pg'
 # Use sqlite3 as the database for Active Record
 
 group :development, :test do
-  gem 'sqlite3'
+  #gem 'sqlite3'
   gem 'rspec-rails', '2.9.0'
 end
 
 group :production do
-  gem 'pg'
   gem 'aws-sdk'
 end
 
